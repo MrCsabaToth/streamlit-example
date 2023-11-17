@@ -3,15 +3,8 @@ import numpy as np
 import pandas as pd
 import streamlit as st
 
-"""
-# Welcome to Streamlit!
-
-Edit `/streamlit_app.py` to customize this app to your heart's desire :heart:.
-If you have any questions, checkout our [documentation](https://docs.streamlit.io) and [community
-forums](https://discuss.streamlit.io).
-
-In the meantime, below is an example of what you can do with just a few lines of code:
-"""
+st.image("https://static.wixstatic.com/media/e199f9_7753c2eeaf8d41249d87cf69fe55bfe8~mv2.png/v1/fill/w_173,h_53,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/logo%233_fb820x340%20%20w%20Lt%20green%20%26%20R.png", width=173)
+st.title("ThruThink Support")
 
 num_points = st.slider("Number of points in spiral", 1, 10000, 1100)
 num_turns = st.slider("Number of turns in spiral", 1, 300, 31)
